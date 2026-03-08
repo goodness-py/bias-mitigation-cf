@@ -1,0 +1,13 @@
+{
+  "strategy": "in_processing_neighbourhood_constraint",
+  "min_f_fraction": 0.3,
+  "baseline_nbr_composition_gap": 0.08303312328645635,
+  "constrained_nbr_composition_gap": 0.017052980132450324,
+  "nbr_gap_reduction": 0.06598014315400602,
+  "baseline_pred_rmse_gap": 0.024257098370441543,
+  "constrained_pred_rmse_gap": 0.004883116525845166,
+  "pred_gap_reduction": 0.019373981844596377,
+  "baseline_overall_rmse": 0.9741292075334037,
+  "constrained_overall_rmse": 1.1873802276345236,
+  "rmse_change": 0.21325102010111985
+}

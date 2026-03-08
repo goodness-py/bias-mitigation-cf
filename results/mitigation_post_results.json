@@ -1,0 +1,9 @@
+{
+  "strategy": "post_processing_reranking",
+  "pre_dp_gap": 0.027064897869451217,
+  "post_dp_gap": 0.027064897869451217,
+  "bias_reduction": 0.0,
+  "pre_ndcg": 0.9235807459276206,
+  "post_ndcg": 0.9182562407184139,
+  "ndcg_loss": 0.005324505209206687
+}

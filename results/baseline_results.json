@@ -1,0 +1,68 @@
+{
+  "input_stats": {
+    "total_ratings": 1000209,
+    "group_counts": {
+      "F": 246440,
+      "M": 753769
+    },
+    "group_proportions": {
+      "F": 0.24638850480249627,
+      "M": 0.7536114951975037
+    },
+    "avg_ratings_per_user": {
+      "F": 144.20128730251608,
+      "M": 174.0404063726622
+    },
+    "unique_items": {
+      "F": 3481,
+      "M": 3671
+    },
+    "activity_gap": 29.839119070146126,
+    "item_coverage_gap": 0.05126821370750135
+  },
+  "fairness_summary": {
+    "stage1_input_activity_gap": 0.18019061934423963,
+    "stage2_similarity_bias": 0.3090110797833843,
+    "stage3_top_similar_comp_gap": 0.04206175719506011,
+    "stage4_neighbourhood_comp_gap": 0.08303312328645635,
+    "stage5_prediction_rmse_gap": 0.024257098370441543,
+    "stage6_demographic_parity_gap": 0.027064897869451217,
+    "stage6_equal_opportunity_gap": 0.017021277681576963,
+    "rmse_by_group": {
+      "M": 0.9681015879839973,
+      "F": 0.9923586863544388
+    }
+  },
+  "evaluation": {
+    "overall": {
+      "rmse": 0.9741292075334037,
+      "mae": 0.7694559299605099
+    },
+    "by_group_accuracy": {
+      "M": {
+        "rmse": 0.9681015879839973,
+        "mae": 0.7653964443937388,
+        "n": 150796
+      },
+      "F": {
+        "rmse": 0.9923586863544388,
+        "mae": 0.781886466156888,
+        "n": 49246
+      }
+    },
+    "by_group_ranking": {
+      "M": {
+        "precision@k": 0.6745899745899746,
+        "recall@k": 0.6166052074616812,
+        "ndcg@k": 0.926752151815019,
+        "n_users": 4331
+      },
+      "F": {
+        "precision@k": 0.6418427230046949,
+        "recall@k": 0.6666919304147316,
+        "ndcg@k": 0.9155613787663965,
+        "n_users": 1709
+      }
+    }
+  }
+}

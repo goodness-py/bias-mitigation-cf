@@ -1,0 +1,27 @@
+{
+  "stage_labels": [
+    "S1: Input",
+    "S2: Similarity",
+    "S3: Top-Similar",
+    "S4: Neighbourhood",
+    "S5: Prediction",
+    "S6: Ranking"
+  ],
+  "stage_bias_scores": {
+    "S1: Input": 0.18019061934423963,
+    "S2: Similarity": 0.3090110797833843,
+    "S3: Top-Similar": 0.04206175719506011,
+    "S4: Neighbourhood": 0.08303312328645635,
+    "S5: Prediction": 0.024257098370441543,
+    "S6: Ranking": 0.027064897869451217
+  },
+  "delta_amplification": {
+    "delta_2": 0.1288204604391447,
+    "delta_3": -0.2669493225883242,
+    "delta_4": 0.04097136609139623,
+    "delta_5": -0.0587760249160148,
+    "delta_6": 0.0028077994990096736
+  },
+  "bottleneck_stage": "S2: Similarity",
+  "bottleneck_bias": 0.3090110797833843
+}
