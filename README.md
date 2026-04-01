@@ -149,6 +149,26 @@ bias-mitigation-cf/
 
 ---
 
+## Visualisations
+
+### Pipeline Decomposition Waterfall
+![Pipeline Decomposition](results/decomposition_waterfall.png)
+
+### Baseline Performance by Gender Group
+![Baseline Precision by Group](results/baseline_precision_by_group.png)
+
+### Baseline RMSE by Gender Group
+![Baseline RMSE by Group](results/baseline_rmse_by_group.png)
+
+### Mitigation Strategy Comparison
+![Mitigation Comparison](results/mitigation_comparison_bar.png)
+
+### Temporal Bias Over Time
+![Temporal Bias Over Time](results/temporal_bias_over_time.png)
+
+### Mitigation Pareto Chart
+![Mitigation Pareto](results/mitigation_pareto.png)
+
 ## Technical Notes
 
 - numpy < 2.0 is required for scikit-surprise compatibility
